@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
-    Snap
+    GCamGo
 
 # Charger
 PRODUCT_PACKAGES += \
