@@ -27,6 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/laurel_sprout.mk)
 
 # Project Streak Properties
 TARGET_BOOT_ANIMATION_RES := 720
+STREAK_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := laurel_sprout
