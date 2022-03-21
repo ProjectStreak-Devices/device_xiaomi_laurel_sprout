@@ -104,5 +104,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
+    property_override("ro.build.description", "laurel_sprout-user 11 RKQ1.200903.002 V12.0.15.0.RFQMIXM release-keys");
+    property_override("ro.build.fingerprint", "google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys");
+
     vendor_load_device_properties();
 }
