@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common CrDroid stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Project Streak stuff
+$(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
 # Inherit from laurel_sprout device
 $(call inherit-product, $(LOCAL_PATH)/laurel_sprout.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/laurel_sprout.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_laurel_sprout
+PRODUCT_NAME := streak_laurel_sprout
 PRODUCT_MODEL := Mi A3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
